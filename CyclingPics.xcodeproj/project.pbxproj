@@ -13,6 +13,8 @@
 		B976AEE81CDDDDFD006F68BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B976AEE61CDDDDFD006F68BF /* Main.storyboard */; };
 		B976AEEA1CDDDDFD006F68BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B976AEE91CDDDDFD006F68BF /* Assets.xcassets */; };
 		B976AEED1CDDDDFD006F68BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B976AEEB1CDDDDFD006F68BF /* LaunchScreen.storyboard */; };
+		B976AEF61CDDE146006F68BF /* PBCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B976AEF51CDDE146006F68BF /* PBCollectionCell.m */; };
+		B976AEF81CDDE42E006F68BF /* PBCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B976AEF71CDDE42E006F68BF /* PBCollectionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		B976AEE91CDDDDFD006F68BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B976AEEC1CDDDDFD006F68BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B976AEEE1CDDDDFD006F68BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B976AEF41CDDE146006F68BF /* PBCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBCollectionCell.h; sourceTree = "<group>"; };
+		B976AEF51CDDE146006F68BF /* PBCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBCollectionCell.m; sourceTree = "<group>"; };
+		B976AEF71CDDE42E006F68BF /* PBCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PBCollectionCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				B976AEE11CDDDDFD006F68BF /* AppDelegate.m */,
 				B976AEE31CDDDDFD006F68BF /* ViewController.h */,
 				B976AEE41CDDDDFD006F68BF /* ViewController.m */,
+				B976AEF41CDDE146006F68BF /* PBCollectionCell.h */,
+				B976AEF51CDDE146006F68BF /* PBCollectionCell.m */,
+				B976AEF71CDDE42E006F68BF /* PBCollectionCell.xib */,
 				B976AEE61CDDDDFD006F68BF /* Main.storyboard */,
 				B976AEE91CDDDDFD006F68BF /* Assets.xcassets */,
 				B976AEEB1CDDDDFD006F68BF /* LaunchScreen.storyboard */,
@@ -139,6 +147,7 @@
 				B976AEED1CDDDDFD006F68BF /* LaunchScreen.storyboard in Resources */,
 				B976AEEA1CDDDDFD006F68BF /* Assets.xcassets in Resources */,
 				B976AEE81CDDDDFD006F68BF /* Main.storyboard in Resources */,
+				B976AEF81CDDE42E006F68BF /* PBCollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +161,7 @@
 				B976AEE51CDDDDFD006F68BF /* ViewController.m in Sources */,
 				B976AEE21CDDDDFD006F68BF /* AppDelegate.m in Sources */,
 				B976AEDF1CDDDDFD006F68BF /* main.m in Sources */,
+				B976AEF61CDDE146006F68BF /* PBCollectionCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
